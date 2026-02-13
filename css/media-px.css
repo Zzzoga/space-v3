@@ -1,0 +1,526 @@
+/* ADAPTIVE */
+@media (max-width: 960px) {
+   nav.menu {
+    display: none;
+}
+
+.burger {
+    display: flex;
+}
+
+.left {
+    gap: 32px;
+    padding: 20px 32px;
+}
+
+span.line {
+    display: flex;
+    width: 40px;
+    height: 2px;
+    background: var(--white);
+}
+
+a.logo svg {
+    width: 121px;
+    height: 32px;
+}
+
+a.phone {
+    padding: 25px 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+section.hero {
+    max-height: 620px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.hero__wrapper {
+    gap: 46px;
+}
+
+.hero__info {
+    padding: 0 20px;
+    gap: 20px;
+}
+
+section.hero h1.title {
+    font-size: 48px;
+    line-height: 1;
+    max-width: 100%;
+}
+
+.btn.hero__btn {
+    padding: 16px 20px;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.hero__services__item {
+    padding: 20px;
+    height: 260px;
+}
+
+p.hero__services__item__title {
+    font-size: 22px;
+    line-height: 1;
+}
+
+.hero__services__item nav ul {
+    gap: 16px;
+}
+
+.hero__services__item nav ul a {
+    font-size: 18px;
+    line-height: 1;
+}
+
+h2.section__title {
+    font-size: 48px;
+    line-height: 1;
+}
+
+a.projects__cats__item {
+    padding: 6px 16px;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 12px;
+}
+
+.projects__cats {
+    gap: 2px;
+}
+
+.grid__2 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.gap20 {
+    gap: 10px;
+}
+
+a.projects__item {
+    height: 500px;
+}
+
+.tag {
+    padding: 6px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    line-height: 1;
+}
+
+.projects__item__info {
+    padding: 8px;
+}
+
+h3.projects__item__name {
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 8px;
+}
+
+.company__info {
+    max-width: 100%;
+    gap: 20px;
+}
+
+h3.company__title {
+    font-size: 40px;
+    line-height: 1;
+}
+
+a.link {
+    font-size: 26px;
+    line-height: 1;
+    gap: 12px;
+    padding: 6px 0;
+    align-items: center;
+}
+
+a.link svg {
+    width: 12px;
+    height: 12px;
+    margin: 5px 0 0;
+}
+
+.company__wrapper {
+    gap: 40px;
+}
+
+.company__stats {
+    gap: 20px 12px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.company__stats__item {
+    gap: 2px;
+    padding-bottom: 8px;
+}
+
+p.value {
+    font-size: 80px;
+    line-height: 94px;
+}
+
+.company__stats__item .text {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.partners__item {
+    width: 140px;
+    height: 140px;
+    padding: 30px;
+}
+
+.direction__tabs {
+    gap: 20px;
+}
+
+p.direction__tab {
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid transparent;
+}
+
+video.direction__bg {
+    height: 100%;
+}
+
+.direction__body__item {
+    height: 220px;
+    padding: 20px;
+    gap: 16px;
+}
+
+.info {
+    gap: 10px;
+}
+
+.info a.title {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.info .text {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.direction__body__item .link svg {
+    height: 14px;
+    width: 14px;
+}
+
+.direction__body__item .link {
+    gap: 12px;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.links {
+    gap: 16px;
+}
+
+section.blog h2.section__title {
+    font-size: 28px;
+    line-height: 32px;
+}
+
+img.blog__item__poster__mobile {
+    display: block;
+    height: 181px;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+}
+
+img.blog__item__poster {
+    display: none;
+}
+
+    a.blog__item {
+    padding: 0;
+    border: none;
+    gap: 6px;
+    aspect-ratio: auto;
+}
+
+.blog__list {
+    gap: 8px;
+}
+
+.container {
+    padding: 0 20px;
+    gap: 30px;
+}
+
+span.date {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+h3.blog__item__title {
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--black);
+    font-weight: 500;
+}
+
+.blog__item__anons {
+    display: none;
+}
+
+.blog__item__tags {
+    gap: 4px 12px;
+    max-width: 100%;
+}
+
+span.blog__item__tag {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+a.blog__item:hover {
+    background: transparent;
+}
+
+section.blog a.link {
+    font-size: 22px;
+    line-height: 1;
+    gap: 12px;
+}
+
+section.blog a.link svg {
+    width: 10px;
+    height: 10px;
+}
+
+    .fos__wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.fos__info {
+    flex-direction: row;
+    gap: 20px;
+    padding: 16px;
+}
+
+.fos__info__header {
+    max-width: 380px;
+    gap: 8px;
+}
+
+.fos__info svg {
+    width: 300px;
+    height: 78px;
+}
+
+form.fos__form {
+    padding: 16px;
+    gap: 56px;
+}
+
+section.fos .container {
+    gap: 30px;
+}
+
+.row {
+    gap: 8px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+p.row__title {
+    font-size: 20px;
+    line-height: 24px;
+    width: 100%;
+}
+
+input.fos__input[name="name"], input.fos__input[name="phone"] {
+    width: calc(50% - 4px);
+}
+
+input.fos__input {
+    width: 100%;
+    padding: 12px 0 8px 0;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+form.fos__form .row:nth-child(2) {
+    gap: 8px;
+}
+
+p.row__title.small {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+form.fos__form .row:nth-child(2) input.fos__input {
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.fos__input__file span {
+    padding: 5px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.bottom {
+    gap: 12px;
+}
+
+.checkbox__input {
+    width: 12px;
+    height: 12px;
+}
+
+label.checkbox__label {
+    font-size: 12px;
+    line-height: 1;
+}
+
+button.btn.fos__btn {
+    padding: 16px;
+    font-size: 22px;
+    line-height: 1;
+}
+
+.form__successful {
+    padding: 20px;
+}
+
+.form__successful__info {
+    width: calc(50% - 20px);
+    gap: 16px;
+}
+
+.form__successful__info .title {
+    font-size: 22px;
+    line-height: 1;
+    padding-bottom: 16px;
+}
+
+.form__successful__info .text {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.tg__wrapper {
+    max-width: 544px;
+    padding: 12px;
+    gap: 12px;
+}
+
+.tg__wrapper .left {
+    padding: 0;
+    gap: 12px;
+    max-width: calc(100% - 246px);
+}
+
+.tg__wrapper .title {
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.tg__wrapper .text {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+a.btn.tg__btn {
+    gap: 8px;
+    padding: 6px 16px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.tg__wrapper .right {
+    gap: 4px;
+    max-width: 234px;
+}
+
+.tg__wrapper .item {
+    padding: 10.5px 8px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+footer.footer {
+    padding: 20px 0;
+}
+
+nav.footer__nav ul {
+    gap: 20px;
+}
+
+nav.footer__nav ul li a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer__contacts {
+    gap: 40px;
+}
+
+.footer__contacts .mail {
+    font-size: 80px;
+    line-height: .7;
+}
+
+.footer__contacts .mail::before {
+    height: 2px;
+    bottom: -13px;
+}
+
+.footer__contacts__list {
+    gap: 20px;
+}
+
+.footer__contacts__item {
+    width: 176px;
+}
+
+.footer__contacts__item .title {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+a.footer__contacts__phone {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.footer__contacts__item .text {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.footer__bottom svg {
+    margin: 40px 0 20px 0;
+}
+
+p.copyright, a.footer__link {
+    font-size: 14px;
+    line-height: 16px;
+}
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 480px) {
+    
+}
