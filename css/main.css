@@ -1397,6 +1397,7 @@ section.tg .container {
     align-items: flex-start;
     gap: calc(var(--u) * 20);
     max-width: calc(100% - calc(var(--u) * 380));
+    padding: 0;
 }
 
 .tg__wrapper .title {
